@@ -1,0 +1,21 @@
+{
+  "name": "disarray",
+  "version": "0.0.1",
+  "description": "An actual alternative to Discord.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "matrix",
+    "decentralized",
+    "encrypted"
+  ],
+  "author": "Team Disarray",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  }
+}

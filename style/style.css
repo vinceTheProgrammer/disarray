@@ -1,0 +1,48 @@
+html {
+    background-color: #303130;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ui {
+    background-color: #656665;
+}
+
+h1 {
+    font-family: digitalt-font;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    text-align: center;
+    flex: 15;
+}
+
+#login-box {
+    margin: auto;
+    flex: 80;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+input {
+    margin: 10px;
+}
+
+#footer {
+    flex: 5;
+    text-align: center;
+}
+
+@font-face {
+    font-family: digitalt-font;
+    src: url('./fonts/digitalt-font/Digitalt-nGZM.otf');
+}
